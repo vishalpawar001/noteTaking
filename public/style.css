@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.note{
+    border: 1px solid grey;
+    width: 15rem;
+    height: 10rem;
+   
+   
+}
+
+.header{
+    top: 0;
+    background-color: black;
+    width: 100vw;
+    color: white;
+    padding: 0.5rem;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    width: 100vw;
+    color: white;
+    padding: 0.5rem;
+}
+
+.container{   
+    margin-top: 54px;
+    z-index: 100;
+    width: 100vw;
+    min-height:80vh ;
+    border: 1px solid grey;
+    background-color: gainsboro;
+    display: flex;
+}
